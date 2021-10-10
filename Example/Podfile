@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ggsdk_Tests' do
+  pod 'ggsdk', :path => '../'
+  
+  
+end
