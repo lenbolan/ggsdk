@@ -61,7 +61,7 @@ TODO: Add long description of the pod here.
   s.dependency 'Toast-Swift', '~> 5.0.1'
   s.dependency 'SwiftHEXColors', '~> 1.4.1'
   
-  subspec 'GDTMobSDK' do |sp|
+  s.subspec 'GDTMobSDK' do |sp|
     sp.public_header_files = 'ggsdk/Classes/GDTMobSDKA.h'
   end
 end
