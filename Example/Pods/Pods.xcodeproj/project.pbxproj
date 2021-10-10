@@ -9,10 +9,47 @@
 /* Begin PBXBuildFile section */
 		386F44383D812F425430F47469E1ED7A /* ggsdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B031871D2B4D10E0FC7640C88562E3 /* ggsdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BFA717946D639932DCC3537B140650C /* Pods-ggsdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E7CD125CB13EFB307F2EE3C1247C5 /* Pods-ggsdk_Tests-dummy.m */; };
+		A129A4C12713220E0083C80D /* UserReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4972713220A0083C80D /* UserReportViewController.swift */; };
+		A129A4C22713220E0083C80D /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4992713220A0083C80D /* UIDevice+Extension.swift */; };
+		A129A4C32713220E0083C80D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A49A2713220A0083C80D /* UIColor+Extension.swift */; };
+		A129A4C42713220E0083C80D /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A49B2713220A0083C80D /* Date+Extension.swift */; };
+		A129A4C52713220E0083C80D /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A49C2713220A0083C80D /* UIButton+Extension.swift */; };
+		A129A4C62713220E0083C80D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A49D2713220A0083C80D /* UIView+Extension.swift */; };
+		A129A4C72713220E0083C80D /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A49E2713220A0083C80D /* UIImage+Extension.swift */; };
+		A129A4C82713220E0083C80D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A49F2713220A0083C80D /* String+Extension.swift */; };
+		A129A4C92713220E0083C80D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4A02713220A0083C80D /* Util.swift */; };
+		A129A4CA2713220E0083C80D /* UIPageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4A12713220A0083C80D /* UIPageView+Extension.swift */; };
+		A129A4CB2713220E0083C80D /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4A22713220A0083C80D /* Array+Extension.swift */; };
+		A129A4CC2713220E0083C80D /* BUSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4A32713220A0083C80D /* BUSplashViewController.swift */; };
+		A129A4CD2713220E0083C80D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4A42713220A0083C80D /* TabBarViewController.swift */; };
+		A129A4CE2713220E0083C80D /* BUSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4A52713220B0083C80D /* BUSignInViewController.swift */; };
+		A129A4CF2713220E0083C80D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4A62713220B0083C80D /* Protocols.swift */; };
+		A129A4D02713220E0083C80D /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4A72713220B0083C80D /* Global.swift */; };
+		A129A4D12713220E0083C80D /* TuiGuangTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4A92713220B0083C80D /* TuiGuangTableViewCell.swift */; };
+		A129A4D22713220E0083C80D /* FunctionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4AA2713220B0083C80D /* FunctionTableViewCell.swift */; };
+		A129A4D32713220E0083C80D /* TuiGuangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4AB2713220B0083C80D /* TuiGuangViewController.swift */; };
+		A129A4D42713220E0083C80D /* KefuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4AC2713220B0083C80D /* KefuTableViewCell.swift */; };
+		A129A4D52713220E0083C80D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4AD2713220B0083C80D /* BaseViewController.swift */; };
+		A129A4D62713220E0083C80D /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4AE2713220B0083C80D /* UploadImageViewController.swift */; };
+		A129A4D72713220E0083C80D /* YuanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4AF2713220B0083C80D /* YuanButton.swift */; };
+		A129A4D82713220E0083C80D /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4B12713220C0083C80D /* ViewController+Extension.swift */; };
+		A129A4D92713220E0083C80D /* GDTSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4B22713220C0083C80D /* GDTSignInViewController.swift */; };
+		A129A4DA2713220E0083C80D /* GDTBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4B32713220C0083C80D /* GDTBannerViewController.swift */; };
+		A129A4DB2713220E0083C80D /* TopBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4B42713220C0083C80D /* TopBarViewController.swift */; };
+		A129A4DC2713220E0083C80D /* AppReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4B52713220C0083C80D /* AppReport.swift */; };
+		A129A4DD2713220E0083C80D /* RegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4B72713220C0083C80D /* RegistViewController.swift */; };
+		A129A4DE2713220E0083C80D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4B82713220C0083C80D /* LoginViewController.swift */; };
+		A129A4DF2713220E0083C80D /* BUBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4B92713220D0083C80D /* BUBannerViewController.swift */; };
+		A129A4E02713220E0083C80D /* NavBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4BA2713220D0083C80D /* NavBarViewController.swift */; };
+		A129A4E12713220E0083C80D /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4BB2713220D0083C80D /* AppManager.swift */; };
+		A129A4E22713220E0083C80D /* GDTFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4BC2713220D0083C80D /* GDTFlowViewController.swift */; };
+		A129A4E32713220E0083C80D /* AppParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4BD2713220D0083C80D /* AppParams.swift */; };
+		A129A4E42713220E0083C80D /* BaseSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4BE2713220D0083C80D /* BaseSignInViewController.swift */; };
+		A129A4E52713220E0083C80D /* UploadImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4BF2713220E0083C80D /* UploadImageCell.swift */; };
+		A129A4E62713220E0083C80D /* ConfigRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129A4C02713220E0083C80D /* ConfigRemote.swift */; };
 		B6C348426961555EB503375D63502BB2 /* ggsdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E42C122F2C29D91CA1915423E356DDEB /* ggsdk-dummy.m */; };
 		CD659960D3C971DEF7326758F3B43603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DE590D0A32ED2293CE394872DC7CEC16 /* Pods-ggsdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0974359B772D82B8F99B6E28B408BDEB /* Pods-ggsdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0CD88BD0F219E48D7DF592D23CAA923 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BD4D3C91EF40F1E761E7C4EBCFD916 /* ReplaceMe.swift */; };
 		F40297BB052D3F1FEE93E2C4B3810898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,26 +68,63 @@
 		1153310E4DE17F739E25DD49B0C1C2B2 /* ggsdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ggsdk-prefix.pch"; sourceTree = "<group>"; };
 		17CDC78D9ABF05866AAA5F9D80E3DDF3 /* ggsdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ggsdk.release.xcconfig; sourceTree = "<group>"; };
 		2458A8393DF7ACA42B93CC050589ECB1 /* ggsdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ggsdk.modulemap; sourceTree = "<group>"; };
-		26261B5B3A3B9880208D399F63B482CB /* Pods_ggsdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ggsdk_Tests.framework; path = "Pods-ggsdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26261B5B3A3B9880208D399F63B482CB /* Pods_ggsdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ggsdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		357B0E9CFB92A6918032A836643F089E /* ggsdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ggsdk.debug.xcconfig; sourceTree = "<group>"; };
-		4244AA416EFF729BCA3EA42EF4D5BB61 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4244AA416EFF729BCA3EA42EF4D5BB61 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		42CE28C42BA9CEA24C70F1440ACA20B1 /* Pods-ggsdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ggsdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		644F210D88C59BF0B15C8DB1DA4D5FF0 /* Pods-ggsdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ggsdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7C5443E2E325E7451118E60415D7E92D /* Pods-ggsdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ggsdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		89DF862FB41F40C39A913DCBD05A7579 /* Pods-ggsdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ggsdk_Tests-Info.plist"; sourceTree = "<group>"; };
-		93BD4D3C91EF40F1E761E7C4EBCFD916 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ggsdk/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		9A9E7CD125CB13EFB307F2EE3C1247C5 /* Pods-ggsdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ggsdk_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A129A4972713220A0083C80D /* UserReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserReportViewController.swift; path = ggsdk/Classes/UserReportViewController.swift; sourceTree = "<group>"; };
+		A129A4992713220A0083C80D /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		A129A49A2713220A0083C80D /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A129A49B2713220A0083C80D /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		A129A49C2713220A0083C80D /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		A129A49D2713220A0083C80D /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		A129A49E2713220A0083C80D /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		A129A49F2713220A0083C80D /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		A129A4A02713220A0083C80D /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		A129A4A12713220A0083C80D /* UIPageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPageView+Extension.swift"; sourceTree = "<group>"; };
+		A129A4A22713220A0083C80D /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		A129A4A32713220A0083C80D /* BUSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BUSplashViewController.swift; path = ggsdk/Classes/BUSplashViewController.swift; sourceTree = "<group>"; };
+		A129A4A42713220A0083C80D /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = ggsdk/Classes/TabBarViewController.swift; sourceTree = "<group>"; };
+		A129A4A52713220B0083C80D /* BUSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BUSignInViewController.swift; path = ggsdk/Classes/BUSignInViewController.swift; sourceTree = "<group>"; };
+		A129A4A62713220B0083C80D /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = ggsdk/Classes/Protocols.swift; sourceTree = "<group>"; };
+		A129A4A72713220B0083C80D /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Global.swift; path = ggsdk/Classes/Global.swift; sourceTree = "<group>"; };
+		A129A4A92713220B0083C80D /* TuiGuangTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuiGuangTableViewCell.swift; sourceTree = "<group>"; };
+		A129A4AA2713220B0083C80D /* FunctionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionTableViewCell.swift; sourceTree = "<group>"; };
+		A129A4AB2713220B0083C80D /* TuiGuangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuiGuangViewController.swift; sourceTree = "<group>"; };
+		A129A4AC2713220B0083C80D /* KefuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KefuTableViewCell.swift; sourceTree = "<group>"; };
+		A129A4AD2713220B0083C80D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ggsdk/Classes/BaseViewController.swift; sourceTree = "<group>"; };
+		A129A4AE2713220B0083C80D /* UploadImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UploadImageViewController.swift; path = ggsdk/Classes/UploadImageViewController.swift; sourceTree = "<group>"; };
+		A129A4AF2713220B0083C80D /* YuanButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YuanButton.swift; path = ggsdk/Classes/YuanButton.swift; sourceTree = "<group>"; };
+		A129A4B12713220C0083C80D /* ViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		A129A4B22713220C0083C80D /* GDTSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GDTSignInViewController.swift; path = ggsdk/Classes/GDTSignInViewController.swift; sourceTree = "<group>"; };
+		A129A4B32713220C0083C80D /* GDTBannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GDTBannerViewController.swift; path = ggsdk/Classes/GDTBannerViewController.swift; sourceTree = "<group>"; };
+		A129A4B42713220C0083C80D /* TopBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopBarViewController.swift; path = ggsdk/Classes/TopBarViewController.swift; sourceTree = "<group>"; };
+		A129A4B52713220C0083C80D /* AppReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppReport.swift; path = ggsdk/Classes/AppReport.swift; sourceTree = "<group>"; };
+		A129A4B72713220C0083C80D /* RegistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistViewController.swift; sourceTree = "<group>"; };
+		A129A4B82713220C0083C80D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A129A4B92713220D0083C80D /* BUBannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BUBannerViewController.swift; path = ggsdk/Classes/BUBannerViewController.swift; sourceTree = "<group>"; };
+		A129A4BA2713220D0083C80D /* NavBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavBarViewController.swift; path = ggsdk/Classes/NavBarViewController.swift; sourceTree = "<group>"; };
+		A129A4BB2713220D0083C80D /* AppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppManager.swift; path = ggsdk/Classes/AppManager.swift; sourceTree = "<group>"; };
+		A129A4BC2713220D0083C80D /* GDTFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GDTFlowViewController.swift; path = ggsdk/Classes/GDTFlowViewController.swift; sourceTree = "<group>"; };
+		A129A4BD2713220D0083C80D /* AppParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppParams.swift; path = ggsdk/Classes/AppParams.swift; sourceTree = "<group>"; };
+		A129A4BE2713220D0083C80D /* BaseSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseSignInViewController.swift; path = ggsdk/Classes/BaseSignInViewController.swift; sourceTree = "<group>"; };
+		A129A4BF2713220E0083C80D /* UploadImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UploadImageCell.swift; path = ggsdk/Classes/UploadImageCell.swift; sourceTree = "<group>"; };
+		A129A4C02713220E0083C80D /* ConfigRemote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfigRemote.swift; path = ggsdk/Classes/ConfigRemote.swift; sourceTree = "<group>"; };
 		A9B031871D2B4D10E0FC7640C88562E3 /* ggsdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ggsdk-umbrella.h"; sourceTree = "<group>"; };
 		AE3339304F046172E67C50A5C8C643B8 /* ggsdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ggsdk-Info.plist"; sourceTree = "<group>"; };
-		B6BDD23670767EFDC4C8842A561D1BF7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B6BDD23670767EFDC4C8842A561D1BF7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B70A735E0AB7FEBE4C451C2CB0139AF8 /* Pods-ggsdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ggsdk_Tests.modulemap"; sourceTree = "<group>"; };
-		CDEA7B115E7D9AD23E5C2B846245E929 /* ggsdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ggsdk.framework; path = ggsdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEA7B115E7D9AD23E5C2B846245E929 /* ggsdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ggsdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01F963242C30359F146B0F6E9A9D39D /* Pods-ggsdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ggsdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E42C122F2C29D91CA1915423E356DDEB /* ggsdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ggsdk-dummy.m"; sourceTree = "<group>"; };
 		E68E109BE99B1D375902BBF4764BC880 /* Pods-ggsdk_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ggsdk_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		EB2465958A605500951E5E4994B1B4D4 /* ggsdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ggsdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EB2465958A605500951E5E4994B1B4D4 /* ggsdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ggsdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,10 +222,83 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		A129A4982713220A0083C80D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A129A4992713220A0083C80D /* UIDevice+Extension.swift */,
+				A129A49A2713220A0083C80D /* UIColor+Extension.swift */,
+				A129A49B2713220A0083C80D /* Date+Extension.swift */,
+				A129A49C2713220A0083C80D /* UIButton+Extension.swift */,
+				A129A49D2713220A0083C80D /* UIView+Extension.swift */,
+				A129A49E2713220A0083C80D /* UIImage+Extension.swift */,
+				A129A49F2713220A0083C80D /* String+Extension.swift */,
+				A129A4A02713220A0083C80D /* Util.swift */,
+				A129A4A12713220A0083C80D /* UIPageView+Extension.swift */,
+				A129A4A22713220A0083C80D /* Array+Extension.swift */,
+			);
+			name = Utils;
+			path = ggsdk/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		A129A4A82713220B0083C80D /* TuiGuang */ = {
+			isa = PBXGroup;
+			children = (
+				A129A4A92713220B0083C80D /* TuiGuangTableViewCell.swift */,
+				A129A4AA2713220B0083C80D /* FunctionTableViewCell.swift */,
+				A129A4AB2713220B0083C80D /* TuiGuangViewController.swift */,
+				A129A4AC2713220B0083C80D /* KefuTableViewCell.swift */,
+			);
+			name = TuiGuang;
+			path = ggsdk/Classes/TuiGuang;
+			sourceTree = "<group>";
+		};
+		A129A4B02713220C0083C80D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A129A4B12713220C0083C80D /* ViewController+Extension.swift */,
+			);
+			name = Extension;
+			path = ggsdk/Classes/Extension;
+			sourceTree = "<group>";
+		};
+		A129A4B62713220C0083C80D /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				A129A4B72713220C0083C80D /* RegistViewController.swift */,
+				A129A4B82713220C0083C80D /* LoginViewController.swift */,
+			);
+			name = Account;
+			path = ggsdk/Classes/Account;
+			sourceTree = "<group>";
+		};
 		C052CE687AA14EDE60BB4CA06D47231D /* ggsdk */ = {
 			isa = PBXGroup;
 			children = (
-				93BD4D3C91EF40F1E761E7C4EBCFD916 /* ReplaceMe.swift */,
+				A129A4B62713220C0083C80D /* Account */,
+				A129A4BB2713220D0083C80D /* AppManager.swift */,
+				A129A4BD2713220D0083C80D /* AppParams.swift */,
+				A129A4B52713220C0083C80D /* AppReport.swift */,
+				A129A4BE2713220D0083C80D /* BaseSignInViewController.swift */,
+				A129A4AD2713220B0083C80D /* BaseViewController.swift */,
+				A129A4B92713220D0083C80D /* BUBannerViewController.swift */,
+				A129A4A52713220B0083C80D /* BUSignInViewController.swift */,
+				A129A4A32713220A0083C80D /* BUSplashViewController.swift */,
+				A129A4C02713220E0083C80D /* ConfigRemote.swift */,
+				A129A4B02713220C0083C80D /* Extension */,
+				A129A4B32713220C0083C80D /* GDTBannerViewController.swift */,
+				A129A4BC2713220D0083C80D /* GDTFlowViewController.swift */,
+				A129A4B22713220C0083C80D /* GDTSignInViewController.swift */,
+				A129A4A72713220B0083C80D /* Global.swift */,
+				A129A4BA2713220D0083C80D /* NavBarViewController.swift */,
+				A129A4A62713220B0083C80D /* Protocols.swift */,
+				A129A4A42713220A0083C80D /* TabBarViewController.swift */,
+				A129A4B42713220C0083C80D /* TopBarViewController.swift */,
+				A129A4A82713220B0083C80D /* TuiGuang */,
+				A129A4BF2713220E0083C80D /* UploadImageCell.swift */,
+				A129A4AE2713220B0083C80D /* UploadImageViewController.swift */,
+				A129A4972713220A0083C80D /* UserReportViewController.swift */,
+				A129A4982713220A0083C80D /* Utils */,
+				A129A4AF2713220B0083C80D /* YuanButton.swift */,
 				25B97479F5395A9D97CA407F040C55A5 /* Pod */,
 				4306E567AEA0CF55D53CCAAEA99807E5 /* Support Files */,
 			);
@@ -287,8 +434,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A129A4C92713220E0083C80D /* Util.swift in Sources */,
 				B6C348426961555EB503375D63502BB2 /* ggsdk-dummy.m in Sources */,
-				E0CD88BD0F219E48D7DF592D23CAA923 /* ReplaceMe.swift in Sources */,
+				A129A4C22713220E0083C80D /* UIDevice+Extension.swift in Sources */,
+				A129A4DF2713220E0083C80D /* BUBannerViewController.swift in Sources */,
+				A129A4D52713220E0083C80D /* BaseViewController.swift in Sources */,
+				A129A4C62713220E0083C80D /* UIView+Extension.swift in Sources */,
+				A129A4D42713220E0083C80D /* KefuTableViewCell.swift in Sources */,
+				A129A4E62713220E0083C80D /* ConfigRemote.swift in Sources */,
+				A129A4C72713220E0083C80D /* UIImage+Extension.swift in Sources */,
+				A129A4CE2713220E0083C80D /* BUSignInViewController.swift in Sources */,
+				A129A4C12713220E0083C80D /* UserReportViewController.swift in Sources */,
+				A129A4D02713220E0083C80D /* Global.swift in Sources */,
+				A129A4E02713220E0083C80D /* NavBarViewController.swift in Sources */,
+				A129A4C32713220E0083C80D /* UIColor+Extension.swift in Sources */,
+				A129A4DE2713220E0083C80D /* LoginViewController.swift in Sources */,
+				A129A4DA2713220E0083C80D /* GDTBannerViewController.swift in Sources */,
+				A129A4DB2713220E0083C80D /* TopBarViewController.swift in Sources */,
+				A129A4CC2713220E0083C80D /* BUSplashViewController.swift in Sources */,
+				A129A4C42713220E0083C80D /* Date+Extension.swift in Sources */,
+				A129A4D92713220E0083C80D /* GDTSignInViewController.swift in Sources */,
+				A129A4C82713220E0083C80D /* String+Extension.swift in Sources */,
+				A129A4E12713220E0083C80D /* AppManager.swift in Sources */,
+				A129A4C52713220E0083C80D /* UIButton+Extension.swift in Sources */,
+				A129A4CB2713220E0083C80D /* Array+Extension.swift in Sources */,
+				A129A4D62713220E0083C80D /* UploadImageViewController.swift in Sources */,
+				A129A4D82713220E0083C80D /* ViewController+Extension.swift in Sources */,
+				A129A4D22713220E0083C80D /* FunctionTableViewCell.swift in Sources */,
+				A129A4E42713220E0083C80D /* BaseSignInViewController.swift in Sources */,
+				A129A4DC2713220E0083C80D /* AppReport.swift in Sources */,
+				A129A4E52713220E0083C80D /* UploadImageCell.swift in Sources */,
+				A129A4E22713220E0083C80D /* GDTFlowViewController.swift in Sources */,
+				A129A4D32713220E0083C80D /* TuiGuangViewController.swift in Sources */,
+				A129A4DD2713220E0083C80D /* RegistViewController.swift in Sources */,
+				A129A4CD2713220E0083C80D /* TabBarViewController.swift in Sources */,
+				A129A4D72713220E0083C80D /* YuanButton.swift in Sources */,
+				A129A4E32713220E0083C80D /* AppParams.swift in Sources */,
+				A129A4D12713220E0083C80D /* TuiGuangTableViewCell.swift in Sources */,
+				A129A4CF2713220E0083C80D /* Protocols.swift in Sources */,
+				A129A4CA2713220E0083C80D /* UIPageView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,8 +551,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
