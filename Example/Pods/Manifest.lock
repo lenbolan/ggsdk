@@ -1,0 +1,16 @@
+PODS:
+  - ggsdk (0.1.0)
+
+DEPENDENCIES:
+  - ggsdk (from `../`)
+
+EXTERNAL SOURCES:
+  ggsdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ggsdk: 6773c8e3b0f2ed8e0e1c62bad8bc82bb1b91d59e
+
+PODFILE CHECKSUM: 7e32ab74088583c07ae3a310816ae76f9d80c5ce
+
+COCOAPODS: 1.10.1

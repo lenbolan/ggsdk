@@ -1,0 +1,6 @@
+framework module ggsdk {
+  umbrella header "ggsdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
