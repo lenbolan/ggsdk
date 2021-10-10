@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
     'ggsdk' => ['ggsdk/Assets/*.png']
   }
   
-  s.private_header_files = 'ggsdk/Classes/GDTMobSDKA.h'
+#  s.private_header_files = 'ggsdk/Classes/GDTMobSDKA.h'
   
   s.static_framework = true
   
@@ -62,6 +62,6 @@ TODO: Add long description of the pod here.
   s.dependency 'SwiftHEXColors', '~> 1.4.1'
   
   s.subspec 'GDTMobSDK' do |sp|
-    sp.public_header_files = 'ggsdk/Classes/GDTMobSDKA.h'
+    sp.private_header_files = 'ggsdk/Classes/GDTMobSDKA.h'
   end
 end
