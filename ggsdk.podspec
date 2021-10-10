@@ -39,4 +39,17 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.swift_version = '5'
+  
+  s.dependency 'Alamofire', '~> 4.9.1'
+  s.dependency 'Alamofire-SwiftyJSON', '~> 3.0.0'
+  s.dependency 'Kingfisher', '~> 4.10.1'
+
+  s.dependency 'GDTMobSDK', '~> 4.12.90'
+  s.dependency 'Ads-CN', '~> 3.7.0.8'
+
+  s.dependency 'TZImagePickerController', '~> 3.6.4'
+  s.dependency 'Toast-Swift', '~> 5.0.1'
+  s.dependency 'SwiftHEXColors', '~> 1.4.1'
 end
