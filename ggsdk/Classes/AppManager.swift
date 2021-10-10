@@ -1,6 +1,5 @@
 import Foundation
 
-import GDT
 import BUAdSDK
 import Alamofire
 import Alamofire_SwiftyJSON

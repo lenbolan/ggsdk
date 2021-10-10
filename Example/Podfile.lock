@@ -1,15 +1,63 @@
 PODS:
-  - ggsdk (0.1.0)
+  - Ads-CN (3.7.0.8):
+    - Ads-CN/BUAdSDK (= 3.7.0.8)
+  - Ads-CN/BUAdSDK (3.7.0.8):
+    - Ads-CN/BUFoundation
+    - Ads-CN/Domestic
+  - Ads-CN/BUFoundation (3.7.0.8)
+  - Ads-CN/Domestic (3.7.0.8)
+  - Alamofire (4.9.1)
+  - Alamofire-SwiftyJSON (3.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0.0)
+  - GDTMobSDK (4.12.91):
+    - GDTMobSDK/GDTMobSDK (= 4.12.91)
+  - GDTMobSDK/GDTMobSDK (4.12.91)
+  - ggsdk (0.1.0):
+    - Ads-CN (~> 3.7.0.8)
+    - Alamofire (~> 4.9.1)
+    - Alamofire-SwiftyJSON (~> 3.0.0)
+    - GDTMobSDK (~> 4.12.90)
+    - Kingfisher (~> 4.10.1)
+    - SwiftHEXColors (~> 1.4.1)
+    - Toast-Swift (~> 5.0.1)
+    - TZImagePickerController (~> 3.6.4)
+  - Kingfisher (4.10.1)
+  - SwiftHEXColors (1.4.1)
+  - SwiftyJSON (4.0.0)
+  - Toast-Swift (5.0.1)
+  - TZImagePickerController (3.6.6)
 
 DEPENDENCIES:
   - ggsdk (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Ads-CN
+    - Alamofire
+    - Alamofire-SwiftyJSON
+    - GDTMobSDK
+    - Kingfisher
+    - SwiftHEXColors
+    - SwiftyJSON
+    - Toast-Swift
+    - TZImagePickerController
 
 EXTERNAL SOURCES:
   ggsdk:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ggsdk: 6773c8e3b0f2ed8e0e1c62bad8bc82bb1b91d59e
+  Ads-CN: 4937e2fb03d0e77035ede98ffc936d49ad865b6d
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
+  GDTMobSDK: 8da9c7433aed9009352f90501e57ef29b6d2fd6e
+  ggsdk: a747dee1090ea01583abcc72fe8f7c26c1ad391a
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  SwiftHEXColors: 1cb6e5d55c52749aa33db8f088ac55eb71ca4c7f
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TZImagePickerController: edf61b8e87f26e3e445aa50eb66254bd7f4859db
 
 PODFILE CHECKSUM: 7e32ab74088583c07ae3a310816ae76f9d80c5ce
 

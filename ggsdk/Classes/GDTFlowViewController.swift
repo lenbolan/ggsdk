@@ -1,6 +1,5 @@
 import UIKit
 
-import GDT
 import SwiftHEXColors
 
 class GDTFlowViewController: BaseViewController {

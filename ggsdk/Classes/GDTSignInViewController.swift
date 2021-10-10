@@ -1,7 +1,5 @@
 import UIKit
 
-import GDT
-
 class GDTSignInViewController: BaseSignInViewController {
     
     private var rewardVideoAd:GDTRewardVideoAd!

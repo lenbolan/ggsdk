@@ -1,7 +1,5 @@
 import UIKit
 
-import GDT
-
 class GDTBannerViewController: BaseViewController {
     
     private var bannerView: GDTUnifiedBannerView?
