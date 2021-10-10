@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
     'ggsdk' => ['ggsdk/Assets/*.png']
   }
   
-  s.private_header_files = 'ggsdk/Classes/**/*.h'
+  s.private_header_files = 'ggsdk/Classes/GDTMobSDKA.h'
   
   s.static_framework = true
   
@@ -60,4 +60,8 @@ TODO: Add long description of the pod here.
   s.dependency 'TZImagePickerController', '~> 3.6.4'
   s.dependency 'Toast-Swift', '~> 5.0.1'
   s.dependency 'SwiftHEXColors', '~> 1.4.1'
+  
+  subspec 'GDTMobSDK' do |sp|
+    sp.public_header_files = 'ggsdk/Classes/GDTMobSDKA.h'
+  end
 end
