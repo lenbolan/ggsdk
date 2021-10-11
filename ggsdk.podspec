@@ -70,7 +70,7 @@ TODO: Add long description of the pod here.
     ss.public_header_files = 'ggsdk/Vendors/**/*.h'
 
     ss.frameworks   =  'AdSupport', 'CoreLocation', 'QuartzCore', 'SystemConfiguration', 'CoreTelephony', 'Security', 'StoreKit', 'AVFoundation', 'WebKit'
-    ss.libraries    = 'libxml2', 'libz'
+    ss.libraries    = 'xml2', 'z'
 
 #    ss.vendored_frameworks =  'ggsdk/Vendors/*.framework'
     ss.vendored_libraries = 'ggsdk/Vendors/*.a'
