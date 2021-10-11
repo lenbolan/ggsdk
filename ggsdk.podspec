@@ -54,14 +54,29 @@ TODO: Add long description of the pod here.
   s.dependency 'Alamofire-SwiftyJSON', '~> 3.0.0'
   s.dependency 'Kingfisher', '~> 4.10.1'
 
-  s.dependency 'GDTMobSDK', '~> 4.12.90'
+#  s.dependency 'GDTMobSDK', '~> 4.12.90'
   s.dependency 'Ads-CN', '~> 3.7.0.8'
 
   s.dependency 'TZImagePickerController', '~> 3.6.4'
   s.dependency 'Toast-Swift', '~> 5.0.1'
   s.dependency 'SwiftHEXColors', '~> 1.4.1'
   
-  s.subspec 'GDTMobSDK' do |sp|
-    sp.private_header_files = 'ggsdk/Classes/GDTMobSDKA.h'
+#  s.subspec 'GDTMobSDK' do |sp|
+#    sp.private_header_files = 'ggsdk/Classes/GDTMobSDKA.h'
+#  end
+
+  s.subspec 'GDTMobSDK' do |ss|
+    ss.source_files = 'ggsdk/Vendors/**/*.h'
+    ss.public_header_files = 'ggsdk/Vendors/**/*.h'
+
+    ss.frameworks   =  'AdSupport', 'CoreLocation', 'QuartzCore', 'SystemConfiguration', 'CoreTelephony', 'Security', 'StoreKit', 'AVFoundation', 'WebKit'
+    ss.libraries    = 'libxml2', 'libz'
+
+#    ss.vendored_frameworks =  'ggsdk/Vendors/*.framework'
+    ss.vendored_libraries = 'ggsdk/Vendors/*.a'
+
+    ss.preserve_paths = 'ggsdk/Vendors/*.a' #, 'ggsdk/Vendors/*.framework'
+    ss.pod_target_xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/ggsdk/Vendors/' }
   end
+
 end
